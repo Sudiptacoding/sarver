@@ -15,9 +15,7 @@ function SearchData() {
     }, [])
     const navigate = useNavigate()
 
-
     const handleOnSearch = (string, results) => {
- 
     }
 
     const handleOnHover = (result) => {
@@ -35,8 +33,6 @@ function SearchData() {
     const formatResult = (item) => {
         return (
             <div className='cursor-pointer'>
-
-
                 <div >
                     <a data-tooltip-id={item?.id}><h1>{item?.name}</h1></a>
                     <Tooltip id={item?.id} place={'right'}>

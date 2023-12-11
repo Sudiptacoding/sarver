@@ -3,9 +3,9 @@ import { Link, useLoaderData } from 'react-router-dom';
 import StarRatings from 'react-star-ratings';
 import Swal from 'sweetalert2';
 
-
 const Details = () => {
     const data = useLoaderData()
+
     const addToCard = () => {
         Swal.fire({
             title: "Good job!",
